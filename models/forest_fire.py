@@ -29,7 +29,7 @@ pred = pd.DataFrame(index=range(0,len(prediction)),columns=[cols])
 for i in range(0, len(prediction)):
        pred.iloc[i] = prediction[i]
 for i in cols:
-    y.append[sqrt(mean_squared_error(pred[i], valid[i]))]
+    y.append(sqrt(mean_squared_error(pred[i], valid[i])))
     print('rmse value for', i, 'is : ', sqrt(mean_squared_error(pred[i], valid[i])))
 
 
@@ -53,7 +53,7 @@ pred = pd.DataFrame(index=range(0,len(prediction)),columns=[cols])
 for i in range(0, len(prediction)):
        pred.iloc[i] = prediction[i]
 for i in cols:
-    y.append[sqrt(mean_squared_error(pred[i], valid[i]))]
+    y.append(sqrt(mean_squared_error(pred[i], valid[i])))
     print('rmse value for', i, 'is : ', sqrt(mean_squared_error(pred[i], valid[i])))
 
 data=df[["Humidity"]]
@@ -76,7 +76,7 @@ pred = pd.DataFrame(index=range(0,len(prediction)),columns=[cols])
 for i in range(0, len(prediction)):
        pred.iloc[i] = prediction[i]
 for i in cols:
-    y.append[sqrt(mean_squared_error(pred[i], valid[i]))]
+    y.append(sqrt(mean_squared_error(pred[i], valid[i])))
     print('rmse value for', i, 'is : ', sqrt(mean_squared_error(pred[i], valid[i])))
 
 data=df[["Precipitation"]]
@@ -99,7 +99,7 @@ pred = pd.DataFrame(index=range(0,len(prediction)),columns=[cols])
 for i in range(0, len(prediction)):
        pred.iloc[i] = prediction[i]
 for i in cols:
-    y.append[sqrt(mean_squared_error(pred[i], valid[i]))]
+    y.append(sqrt(mean_squared_error(pred[i], valid[i])))
     print('rmse value for', i, 'is : ', sqrt(mean_squared_error(pred[i], valid[i])))
 
 data=df[["WindSpeedMax"]]
@@ -122,7 +122,7 @@ pred = pd.DataFrame(index=range(0,len(prediction)),columns=[cols])
 for i in range(0, len(prediction)):
        pred.iloc[i] = prediction[i]
 for i in cols:
-    y.append[sqrt(mean_squared_error(pred[i], valid[i]))]
+    y.append(sqrt(mean_squared_error(pred[i], valid[i])))
     print('rmse value for', i, 'is : ', sqrt(mean_squared_error(pred[i], valid[i])))
 
 
