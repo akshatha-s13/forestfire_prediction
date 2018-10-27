@@ -12,7 +12,7 @@ data=df[["TempAvg"]]
 cols = data.columns
 data.index = df.DATE
 train = data.loc['01-01-2015':'03-31-2016']
-valid = data.loc['04-01-2016':'01-30-2016']
+valid = data.loc['04-01-2016':'04-30-2016']
 stepwise_model = auto_arima(train, start_p=1, start_q=1,
                            max_p=3, max_q=3, m=12,
                            start_P=0, seasonal=True,
@@ -35,7 +35,7 @@ data=df[["Humidity"]]
 cols = data.columns
 data.index = df.DATE
 train = data.loc['01-01-2015':'03-31-2016']
-valid = data.loc['04-01-2016':'01-30-2016']
+valid = data.loc['04-01-2016':'04-30-2016']
 stepwise_model = auto_arima(train, start_p=1, start_q=1,
                            max_p=3, max_q=3, m=12,
                            start_P=0, seasonal=True,
@@ -60,7 +60,7 @@ data=df[["Precipitation"]]
 cols = data.columns
 data.index = df.DATE
 train = data.loc['01-01-2015':'03-31-2016']
-valid = data.loc['04-01-2016':'01-30-2016']
+valid = data.loc['04-01-2016':'04-30-2016']
 stepwise_model = auto_arima(train, start_p=1, start_q=1,
                            max_p=3, max_q=3, m=12,
                            start_P=0, seasonal=True,
@@ -84,7 +84,7 @@ data=df[["WindSpeedMax"]]
 cols = data.columns
 data.index = df.DATE
 train = data.loc['01-01-2015':'03-31-2016']
-valid = data.loc['04-01-2016':'01-30-2016']
+valid = data.loc['04-01-2016':'04-30-2016']
 stepwise_model = auto_arima(train, start_p=1, start_q=1,
                            max_p=3, max_q=3, m=12,
                            start_P=0, seasonal=True,
@@ -118,7 +118,7 @@ if ff_prob>6:
    print ("Yes")
 else:
         print("No")
-   
+
 
 
 
