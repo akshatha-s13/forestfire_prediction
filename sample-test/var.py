@@ -4,6 +4,9 @@ Created on Fri Oct 26 17:05:50 2018
 
 @author: AKSHATHA
 """
+
+## This code implements Vector Auto Regression Time Series model and finds the Root Mean Square error for the features.
+
 import pandas as pd
 from sklearn.metrics import mean_squared_error
 
