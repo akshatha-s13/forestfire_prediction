@@ -1,5 +1,5 @@
-#Datasets
-#1.uci 
+# Datasets
+# 1.uci 
 Source : kaggle
 This datset was used to train initial svm model and timeseries(vector autoregression and arima) model.
 
@@ -19,7 +19,7 @@ wind Outside wind speed (in km/h)
 rain Outside rain (in mm/m2) 
 area Total burned area (in ha)
 
-#2.climate-data : 
+# 2.climate-data : 
 Source : https://en.tutiempo.net/climate/india.html
 The above link was used to download climate data regionwise and monthwise. 
 Forest fire reports were referred for dates of forestfire occurence.
@@ -46,5 +46,5 @@ Altitude
 Place
 
 
-#3.newyork 
+# 3.newyork 
 This contains New York forest fire data with timestamp. This is not used for now.
