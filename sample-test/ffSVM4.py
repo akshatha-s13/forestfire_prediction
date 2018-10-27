@@ -1,3 +1,6 @@
+## In this model, PCA is performed on the 4 feature data set to extract 2 equivalent feature. </br>
+## Upon these 2 features SVM is applied to predict if a forest fire will happen or not
+
 import pandas as pd
 import matplotlib.pyplot as plt
 df = pd.read_csv('FFSAMPLESVM.csv')
