@@ -108,16 +108,18 @@ for i in cols:
 ###############################################################################################################################
 ## Threshold Values have to be tested to decide probability of forestfire based on predicted climate conditions for next 30 days
 ###############################################################################################################################
-threshold=[ 2.553,37.595,0.043,0.654]   ####rmse values obtained while tuning parameters and testing
+threshold=[ 2.553,10.595,0.943,0.654]   ####rmse values obtained while tuning parameters and testing
 ff_prob=0
-for i in (0,4):
-       if y[i]>threshold[i]:
+for i in range(0,len(threshold)):
+       if y[i]>0.8*threshold[i] and y[i]<1.2*threshold[i]:
               ff_prob+=(4-i)
 print("Risk of Forest Fire in next 30 days :")
 if ff_prob>6:
    print ("Yes")
 else:
         print("No")
+
+
 
 
 
