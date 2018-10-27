@@ -4,7 +4,9 @@ Source : kaggle
 This datset was used to train initial svm model and timeseries(vector autoregression and arima) model.
 
  forestfires.csv
+ 
  Attribute Description 
+ 
  X: x-axis coordinate (from 1 to 9)  
  Y: y-axis coordinate (from 1 to 9)  
  month: Month of the year (January to December) 
