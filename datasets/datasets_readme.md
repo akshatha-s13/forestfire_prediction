@@ -30,7 +30,8 @@ Forest fire dates from various news reports were referred to know the dates of o
 
 File names: dehradun.csv, vishakapatnam.csv</br>
 Data is updated for Dehradun and Vishakapatnam.</br>
-File names: imphal.csv</br>
+
+File name: imphal.csv</br>
 Data collection,preprocessing and cleaning needs to be done for imphal and other regions.
 
 Attributes:</br>
