@@ -18,7 +18,6 @@ Thus, the proposed project will provide a complete and efficient way to predict 
 
 datasets : This contains the forestfire dataset which was available to us along with the dataset which we created using collected weather data.
 
-sample-test : This folder contains the initial svm model, timeseries model and deep learning(lstm) model trained on modified uci dataset.
-
 models : This is the final folder for latest model and output.
 
+sample-test : This folder contains the initial svm model, timeseries model and deep learning(lstm) model trained on modified uci dataset.
