@@ -13,3 +13,12 @@ To achieve the above stated objectives, Microsoft Azure ML Studio will be employ
 But, prediction alone will not suffice. Hence, we plan on deploying features to avert the disaster and minimize its impact on precious lives. The project will aim to employ thermal IR cameras at specific locations over regions where a forest fire is predicted. These sensors will be interfaced with a Raspberry Pi to communicate via a cloud service to alert (when the value crosses the set threshold) the concerned fire management authorities of the region to deploy a dense network of firefighting mechanisms over the region. The Microsoft Azure Cloud Computing platform will be used for its implementation.
 
 Thus, the proposed project will provide a complete and efficient way to predict and prepare for forest fires.
+
+# Folder Description
+
+datasets : This contains the forestfire dataset which was available to us along with the dataset which we created using collected weather data.
+
+sample-test : This folder contains the initial svm model, timeseries model and deep learning(lstm) model trained on modified uci dataset.
+
+models : This is the final folder for latest model and output.
+
