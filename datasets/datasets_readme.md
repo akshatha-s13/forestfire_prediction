@@ -6,20 +6,9 @@ This datset was used to train initial svm model and timeseries(vector autoregres
  forestfires.csv
  
  Attribute Description 
- 
- X: x-axis coordinate (from 1 to 9)  
- Y: y-axis coordinate (from 1 to 9)  
- month: Month of the year (January to December) 
- day: Day of the week (Monday to Sunday) 
- FFMC: FFMC code 
- DMC: DMC code 
- DC: DC code 
- ISI: ISI index 
- temp: Outside temperature (in ◦C) 
- RH: Outside relative humidity (in %) 
- wind: Outside wind speed (in km/h) 
- rain: Outside rain (in mm/m2) 
- area: Total burned area (in ha)
+ X: x-axis coordinate (from 1 to 9)
+ Y: y-axis coordinate (from 1 to 9)
+ month: Month of the year (January to December)
 
 # 2.climate-data : 
 Source : https://en.tutiempo.net/climate/india.html
@@ -28,7 +17,7 @@ Forest fire dates from various news reports were referred to know the dates of o
 
 Data is updated for Dehradun and Vishakapatnam.
 
-Data collection,preprocessing and cleaning needs to be done.
+Data collection,preprocessing and cleaning needs to be done for other regions.
 
 Attributes :
 DATE,	
