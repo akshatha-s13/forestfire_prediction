@@ -5,6 +5,8 @@ Created on Fri Oct 26 18:40:07 2018
 @author: AKSHATHA
 """
 
+## This model uses Time Series to predict future values of a particular feature.
+
 from pandas import DataFrame
 from pandas import concat
 from pandas import read_csv
