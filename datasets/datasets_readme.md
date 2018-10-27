@@ -5,10 +5,11 @@ This datset was used to train initial svm model and timeseries(vector autoregres
 
  forestfires.csv
  
- Attribute Description 
- X: x-axis coordinate (from 1 to 9)
- Y: y-axis coordinate (from 1 to 9)
- month: Month of the year (January to December)
+ Attribute Description
+ 
+ X: x-axis coordinate (from 1 to 9)<br/>
+ Y: y-axis coordinate (from 1 to 9)<br/>
+ month: Month of the year (January to December)<br/>
 
 # 2.climate-data : 
 Source : https://en.tutiempo.net/climate/india.html
