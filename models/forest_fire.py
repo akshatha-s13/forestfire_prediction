@@ -8,11 +8,11 @@ print(df.dtypes)
 df['DATE'] = pd.to_datetime(df.DATE , format = '%d-%m-%Y')
 #df["Precipitation"] = df.Precipitation.convert_objects(convert_numeric=True)
 
-'''data=df[["TempAvg"]]
+data=df[["TempAvg"]]
 cols = data.columns
 data.index = df.DATE
-train = data.loc['01-01-2015':'30-06-2016']
-valid = data.loc['01-04-2016':'30-04-2016']
+train = data.loc['01-01-2015':'03-31-2016']
+valid = data.loc['04-01-2016':'01-30-2016']
 stepwise_model = auto_arima(train, start_p=1, start_q=1,
                            max_p=3, max_q=3, m=12,
                            start_P=0, seasonal=True,
@@ -29,13 +29,13 @@ for i in range(0, len(prediction)):
        pred.iloc[i] = prediction[i]
 for i in cols:
     y.append(sqrt(mean_squared_error(pred[i], valid[i])))
-    print('rmse value for', i, 'is : ', sqrt(mean_squared_error(pred[i], valid[i])))'''
+    print('rmse value for', i, 'is : ', sqrt(mean_squared_error(pred[i], valid[i])))
 
 data=df[["Humidity"]]
 cols = data.columns
 data.index = df.DATE
-train = data.loc['01-01-2015':'30-06-2016']
-valid = data.loc['01-04-2016':'30-04-2016']
+train = data.loc['01-01-2015':'03-31-2016']
+valid = data.loc['04-01-2016':'01-30-2016']
 stepwise_model = auto_arima(train, start_p=1, start_q=1,
                            max_p=3, max_q=3, m=12,
                            start_P=0, seasonal=True,
@@ -59,8 +59,8 @@ for i in cols:
 data=df[["Precipitation"]]
 cols = data.columns
 data.index = df.DATE
-train = data.loc['01-01-2015':'30-06-2016']
-valid = data.loc['01-04-2016':'30-04-2016']
+train = data.loc['01-01-2015':'03-31-2016']
+valid = data.loc['04-01-2016':'01-30-2016']
 stepwise_model = auto_arima(train, start_p=1, start_q=1,
                            max_p=3, max_q=3, m=12,
                            start_P=0, seasonal=True,
@@ -83,8 +83,8 @@ for i in cols:
 data=df[["WindSpeedMax"]]
 cols = data.columns
 data.index = df.DATE
-train = data.loc['01-01-2015':'30-06-2016']
-valid = data.loc['01-04-2016':'30-04-2016']
+train = data.loc['01-01-2015':'03-31-2016']
+valid = data.loc['04-01-2016':'01-30-2016']
 stepwise_model = auto_arima(train, start_p=1, start_q=1,
                            max_p=3, max_q=3, m=12,
                            start_P=0, seasonal=True,
