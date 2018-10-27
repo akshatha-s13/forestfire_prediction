@@ -29,7 +29,8 @@ Altitude,
 Place
 
 
-# 2.newyork 
+# 2.new-york
+File name: new-york-state-forest-ranger-wildland-fire-reporting-database-beginning-2008.csv
 This contains New York forest fire data with timestamp. This is not used for now.
 
 
