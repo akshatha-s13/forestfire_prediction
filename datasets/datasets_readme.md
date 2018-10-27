@@ -1,11 +1,11 @@
 # Datasets
-# 1.uci 
-Source : kaggle
+# 1.uci: 
+Source : kaggle<br/>
 This datset was used to train initial svm model and timeseries(vector autoregression and arima) model.
 
- forestfires.csv
+File name: forestfires.csv
  
- Attribute Description
+ Attribute Description:
  
  X: x-axis coordinate (from 1 to 9)<br/>
  Y: y-axis coordinate (from 1 to 9)<br/>
@@ -24,15 +24,16 @@ This datset was used to train initial svm model and timeseries(vector autoregres
 ![Map of montesinho park](https://github.com/akshatha-s13/forestfire_prediction/blob/master/datasets/uci/Map%20of%20Montesinho%20natural%20park.png)
 
 # 2.climate-data : 
-Source : https://en.tutiempo.net/climate/india.html
-The above link was used to download climate data regionwise and monthwise. 
-Forest fire dates from various news reports were referred to know the dates of occurence.
+Source : https://en.tutiempo.net/climate/india.html</br>
+The above link was used to download climate data regionwise and monthwise.</br> 
+Forest fire dates from various news reports were referred to know the dates of occurence.</br>
 
-Data is updated for Dehradun and Vishakapatnam.
+File names: dehradun.csv, vishakapatnam.csv</br>
+Data is updated for Dehradun and Vishakapatnam.</br>
+File names: imphal.csv</br>
+Data collection,preprocessing and cleaning needs to be done for imphal and other regions.
 
-Data collection,preprocessing and cleaning needs to be done for other regions.
-
-Attributes :
+Attributes:</br>
 DATE,	
 TempAvg,	
 TempMax,	
