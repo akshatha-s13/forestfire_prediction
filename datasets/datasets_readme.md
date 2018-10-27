@@ -21,6 +21,8 @@ This datset was used to train initial svm model and timeseries(vector autoregres
  rain: Outside rain (in mm/m2)<br/>
  area: Total burned area (in ha)<br/>
 
+![Map of montesinho park](https://github.com/akshatha-s13/forestfire_prediction/blob/master/datasets/uci/Map%20of%20Montesinho%20natural%20park.png)
+
 # 2.climate-data : 
 Source : https://en.tutiempo.net/climate/india.html
 The above link was used to download climate data regionwise and monthwise. 
