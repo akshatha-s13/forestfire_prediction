@@ -30,12 +30,13 @@ Place
 
 
 # 2.new-york
+Source: kaggle
 File name: new-york-state-forest-ranger-wildland-fire-reporting-database-beginning-2008.csv
 This contains New York forest fire data with timestamp. This is not used for now.
 
 
 # 3.uci: 
-Source : kaggle<br/>
+Source: https://archive.ics.uci.edu/ml/datasets/forest+fires<br/>
 This datset was used to train initial svm model and timeseries(vector autoregression and arima) model.
 
 File name: forestfires.csv
