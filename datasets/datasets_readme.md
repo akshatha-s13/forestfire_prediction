@@ -22,7 +22,7 @@ This datset was used to train initial svm model and timeseries(vector autoregres
 # 2.climate-data : 
 Source : https://en.tutiempo.net/climate/india.html
 The above link was used to download climate data regionwise and monthwise. 
-Forest fire reports were referred for dates of forestfire occurence.
+Forest fire dates from various news reports were referred to know the dates of occurence.
 
 Data is updated for Dehradun and Vishakapatnam.
 
