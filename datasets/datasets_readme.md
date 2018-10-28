@@ -30,8 +30,8 @@ Place
 
 
 # 2.new-york
-Source: kaggle
-File name: new-york-state-forest-ranger-wildland-fire-reporting-database-beginning-2008.csv
+Source: kaggle</br>
+File name: new-york-state-forest-ranger-wildland-fire-reporting-database-beginning-2008.csv</br>
 This contains New York forest fire data with timestamp. This is not used for now.
 
 
